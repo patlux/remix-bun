@@ -1,0 +1,39 @@
+{
+  "name": "remix-bun",
+  "version": "1.0.0",
+  "description": "Bun server request handler for Remix",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "bun wiptest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patlux/remix-bun.git"
+  },
+  "keywords": [
+    "bun",
+    "remix",
+    "request",
+    "handler",
+    "response",
+    "runtime"
+  ],
+  "author": "Patrick Wozniak <email@patwoz.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patlux/remix-bun/issues"
+  },
+  "homepage": "https://github.com/patlux/remix-bun#readme",
+  "dependencies": {
+    "@remix-run/server-runtime": "^1.8.2"
+  },
+  "devDependencies": {
+    "bun-types": "^0.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8",
+    "react-dom": ">=16.8"
+  }
+}
