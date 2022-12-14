@@ -1,16 +1,19 @@
 # remix-bun
 
-Bun server adapter for remix
+[Bun](https://github.com/oven-sh/bun) [server adapter](https://remix.run/docs/en/v1/other-api/adapter) for [remix](https://github.com/remix-run)
 
 ## Installation
 
 ```sh
 $ bun add remix-bun
+# See "Usage" for further instructions
 ```
 
 ## Usage
 
 ```ts
+// server.ts
+
 import type { ServeOptions } from 'bun'
 import { createRequestHandler } from 'remix-bun'
 
@@ -34,3 +37,13 @@ const serveOptions: ServeOptions = {
 // bun will use this with bun.serve(serveOptions)
 export default serveOptions
 ```
+
+Start the server
+
+```sh
+$ bun run server.ts
+```
+
+## 🦸‍♂️⤵️
+
+Created with 🔥 by [@de_patwoz](https://twitter.com/de_patwoz)
