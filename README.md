@@ -12,6 +12,20 @@ Now either setup a new project or add `remix-bun` to your existing project:
 
 ### Create a new remix app
 
+#### Use the example in `examples/basic` (fastest way)
+
+```sh
+$ git clone git@github.com:patlux/remix-bun.git
+$ cd remix-bun/examples/basic
+$ bun install
+```
+
+You are ready to go!
+
+Just run `bun run dev` to start the development server.
+
+#### Use `create-remix`
+
 Create a new project with the following commands:
 
 ```sh
@@ -240,11 +254,15 @@ function handleBrowserRequest(
 }
 ``````
 
-Start the server
+## Development
+
+From your terminal:
 
 ```sh
-$ bun run server.ts
+bun run dev
 ```
+
+This starts your app in development mode, rebuilding assets on file changes.
 
 ## Troubleshooting
 

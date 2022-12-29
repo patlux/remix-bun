@@ -1,0 +1,34 @@
+{
+  "private": true,
+  "sideEffects": false,
+  "scripts": {
+    "dev:remix": "bun run node_modules/@remix-run/dev/dist/cli.js watch",
+    "dev:server": "NODE_ENV=development bun --hot ./server.ts",
+    "dev": "run-p dev:*",
+    "build": "remix build",
+    "start": "NODE_ENV=production bun run ./server.ts",
+    "typecheck": "tsc -b"
+  },
+  "dependencies": {
+    "@remix-run/node": "^1.9.0",
+    "@remix-run/react": "^1.9.0",
+    "@remix-run/serve": "^1.9.0",
+    "isbot": "^3.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remix-bun": "^1.0.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^1.9.0",
+    "@remix-run/eslint-config": "^1.9.0",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.8",
+    "bun-types": "^0.4.0",
+    "eslint": "^8.27.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.8.4"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
