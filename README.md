@@ -8,7 +8,7 @@
 
 - [bun](https://bun.sh)
 
-Now either setup a new project or add `remix-bun` to your existing project:
+Now either [setup a new project](#create-a-new-remix-app) or add `remix-bun` to [your existing project](#add-to-existing-project):
 
 ### Create a new remix app
 
@@ -22,7 +22,7 @@ $ bun install
 
 You are ready to go!
 
-Just run `bun run dev` to start the development server.
+Just run `bun run dev` to [start the development server](#development).
 
 #### Use `create-remix`
 
