@@ -268,6 +268,27 @@ This starts your app in development mode, rebuilding assets on file changes.
 
 You need to adjust the `entry.server.ts` as suggested in "Setup project".
 
+## TODO
+
+### Support remix's --template 
+
+`bunx create-remix@latest --template patlux/remix-bun --typescript`
+
+Would be nice for a better way of bootstraping new remix projects with bun.
+
+But it's currently not possible because `bun` doesn't support the `bun config get` command like [npm](https://docs.npmjs.com/cli/v7/commands/npm-config) or [yarn](https://yarnpkg.com/cli/config/get).
+
+```sh
+$ bunx create-remix@latest --template patlux/remix-bun --typescript
+# Where would you like to create your app? ./my-remix-app
+# Do you want me to run `bun install`? Yes
+# ⠏ Creating your app…error: script not found "config"
+# Command failed: bun config get @remix-run:registry
+# error: script not found "config"
+
+# error: "create-remix" exited with code 1 (SIGHUP)
+```
+
 ## Credits
 
 Created by [@de_patwoz](https://twitter.com/de_patwoz)
