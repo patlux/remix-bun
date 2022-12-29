@@ -2,6 +2,8 @@
 
 [Bun](https://github.com/oven-sh/bun) [server adapter](https://remix.run/docs/en/v1/other-api/adapter) for [remix](https://github.com/remix-run)
 
+![bun + remix.run](https://user-images.githubusercontent.com/4481570/210019871-21c4a61a-c6af-4c2a-b62e-f49306b45ca0.png)
+
 ## Get Started
 
 ### Prerequirements
