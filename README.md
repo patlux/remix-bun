@@ -29,7 +29,7 @@ Just run `bun run dev` to [start the development server](#development).
 Create a new project with the following commands:
 
 ```sh
-$ bunx create-remix@latest --no-install 
+$ bunx create-remix@latest --no-install --typescript
 
 # Where would you like to create your app?
 # -> my-remix-bun-app
@@ -37,8 +37,6 @@ $ bunx create-remix@latest --no-install
 # -> Just the basics
 # Where do you want to deploy? Choose Remix App Server if you're unsure; it's easy to change deployment targets.
 # -> Remix App Server
-# TypeScript or JavaScript?
-# -> TypeScript
 # 💿 That's it! `cd` into "<..>/my-remix-bun-app" and check the README for development and deploy instructions!
 
 $ cd my-remix-bun-app
