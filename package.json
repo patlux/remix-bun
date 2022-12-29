@@ -1,6 +1,6 @@
 {
   "name": "remix-bun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bun server request handler for Remix",
   "main": "src/index.ts",
   "scripts": {
