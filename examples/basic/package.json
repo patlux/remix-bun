@@ -7,7 +7,8 @@
     "dev": "run-p dev:*",
     "build": "remix build",
     "start": "NODE_ENV=production bun run ./server.ts",
-    "typecheck": "tsc -b"
+    "typecheck": "tsc -b",
+    "test": "bun wiptest"
   },
   "dependencies": {
     "@remix-run/node": "^1.9.0",

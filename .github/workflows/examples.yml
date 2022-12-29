@@ -1,0 +1,27 @@
+name: Examples
+
+on: [push, pull_request]
+
+jobs:
+  basic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Bun Runtime
+        uses: xhyrom/setup-bun@v0.1.8
+        with:
+          bun-version: latest
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install dependencies
+        run: bun install
+        working-directory: examples/basic
+
+      - name: Run build
+        run: bun run build
+        working-directory: examples/basic
+
+      - name: Run tests
+        run: bun run test
+        working-directory: examples/basic
