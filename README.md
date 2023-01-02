@@ -17,7 +17,7 @@ Now either
 
 ### Create a new remix app
 
-#### Use the example in `examples/basic` (fastest way)
+#### Use the example in `examples/basic` (Easiest way!)
 
 ```sh
 $ git clone git@github.com:patlux/remix-bun.git
