@@ -6,11 +6,14 @@
 
 ## Get Started
 
-### Prerequirements
+Prerequirements
 
-- [bun](https://bun.sh)
+- Install [bun](https://bun.sh)
 
-Now either [setup a new project](#create-a-new-remix-app) or add `remix-bun` to [your existing project](#add-to-existing-project):
+Now either
+- [Use the example in `examples/basic`](#use-the-example-in-examplesbasic-fastest-way) (Easiest way!)
+- [Setup a new remix project](#create-a-new-remix-app) 
+- [Add `remix-bun` to your existing remix project](#add-to-existing-project):
 
 ### Create a new remix app
 
