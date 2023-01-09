@@ -11,7 +11,7 @@ const createRun = (cwd: string) => (file: string, args: string[]) => {
 
 test('Should create a remix project', async () => {
   await useTempDir(async (cwd) => {
-    const result = await execa('bunx', ['create-remix@latest', cwd, '--no-install', '--typescript', '--template', 'remix'])
+    const result = await execa('bun', ['x', 'create-remix@latest', cwd, '--no-install', '--typescript', '--template', 'remix'])
     expect(result.exitCode).toBe(0)
 
     const run = createRun(cwd)
