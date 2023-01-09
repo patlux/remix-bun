@@ -41,7 +41,7 @@ test('Should create a remix project', async () => {
     projectFilesShouldExists({
       cwd,
       files: [
-        'servera.ts',
+        'server.ts',
         'remix.env.d.ts',
         'tsconfig.json'
       ]
